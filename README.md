@@ -1,59 +1,150 @@
+## Smart Course Recommender System using AI & Machine Learning
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+### Personalized Learning Recommendation System Using Collaborative and Content-based Filtering
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+EduAI is an AI-driven smart course recommender system designed to deliver personalized learning suggestions based on user interests, preferences, and learning behavior. The system leverages machine learning algorithms to recommend relevant courses, improving learning efficiency and engagement in digital education platforms.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+### About
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+The rapid growth of online learning platforms has created an overload of educational content, making it difficult for learners to identify suitable courses. Most existing platforms rely on generic recommendations that fail to adapt to individual learner needs.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+EduAI addresses this challenge by integrating Artificial Intelligence (AI) and Machine Learning (ML) techniques to analyze learner data and generate personalized course recommendations. The system evaluates user inputs such as interests, selected domains, and interaction patterns to predict the most relevant learning paths.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+The proposed solution employs multiple machine learning models including Random Forest, Support Vector Machine (SVM), and XGBoost, combined with hybrid filtering techniques. A modern web-based interface ensures ease of use while maintaining scalability and performance.
+
+EduAI aims to enhance learner satisfaction, reduce search effort, and support data-driven personalized education.
+
+### Features
+
+Personalized course recommendations based on learner interests
+
+ Machine Learning-based prediction using RF, SVM, and XGBoost
+
+ Content-based and hybrid recommendation techniques
+
+ Interactive and user-friendly web interface
+
+ Fast and real-time recommendation generation
+
+ Performance evaluation using standard ML metrics
+
+ Secure handling of user interaction data
+
+ Scalable architecture suitable for online learning platforms
+
+### Requirements
+#### Operating System
+
+Windows 10 / Linux / macOS (64-bit)
+
+#### Development Environment
+
+Python 3.9+
+
+HTML, CSS, JavaScript
+
+Flask Framework
+
+#### Machine Learning Libraries
+
+Scikit-learn
+
+XGBoost
+
+NumPy
+
+Pandas
+
+#### Dataset
+
+Learner interaction and course metadata dataset (CSV format)
+
+#### Tools
+
+VS Code / PyCharm
+
+Browser (Chrome / Edge)
+
+Git & GitHub
+
+### System Architecture
+#### Tech Stack
+Component	Technology
+Frontend	HTML, CSS, JavaScript
+Backend	Python (Flask)
+ML Models	Random Forest, SVM, XGBoost
+Dataset	CSV-based learner data
+Evaluation	Accuracy, Precision, Recall, F1-score
+#### Workflow
+
+User enters learning interests or selects tags
+
+System processes input using ML models
+
+Recommendation engine predicts suitable courses
+
+Ranked personalized courses are displayed to the user
+
+####  Architecture Diagram Here
+<img width="488" height="732" alt="image" src="https://github.com/user-attachments/assets/cdec7656-9c86-4237-b28b-aeac41903fd1" />
 
 
-## Output
+### Experiments and Results
+#### Model Performance
+Metric	Value
+Accuracy	92%
+Precision	89%
+Recall	94%
+F1-Score	91%
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+The results indicate strong predictive capability and balanced performance across different evaluation metrics.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+### Performance Metrics Image 
+<img width="488" height="488" alt="image" src="https://github.com/user-attachments/assets/322e6102-d95e-4698-86b8-582121117244" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+### Output
+#### Homepage
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+The homepage acts as the entry point of the system, allowing users to input learning interests through a search bar or select popular domain tags such as Machine Learning, Web Development, Data Science, and Cloud Computing.
 
-
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+#### Homepage Screenshot 
+<img width="488" height="249" alt="image" src="https://github.com/user-attachments/assets/2d4b3587-95f0-45d9-b800-e2c1b9cb1177" />
 
 
+### Personalized Course Recommendations
 
+After processing the user input, the system displays a list of recommended courses. Each recommendation includes match percentage, domain category, rating, and an option to explore the course.
 
+#### Recommendation Output Image
+#### output 1:
+<img width="488" height="229" alt="image" src="https://github.com/user-attachments/assets/0b922a49-f1ee-4ad8-b0cd-0820a670cb98" />
+#### output 2:
+<img width="488" height="638" alt="image" src="https://github.com/user-attachments/assets/564c12b4-d995-4531-a0dc-13ba0d8b6b68" />
+
+### Results and Impact
+
+✔ Improved learning efficiency through personalized recommendations
+✔ Reduced effort in searching relevant courses
+✔ High accuracy and recall in recommendation predictions
+✔ Enhanced learner engagement with adaptive suggestions
+✔ Suitable for integration into e-learning platforms and LMS systems
+
+### Future Enhancements
+
+🔹 Integration of deep learning models for improved accuracy
+🔹 Real-time feedback-based model retraining
+🔹 Mobile application support
+🔹 User profile-based long-term learning analytics
+🔹 Integration with MOOC platforms such as Coursera and Udemy
+
+### References
+
+N. Pal, O. Dahiya, and M. Rana, “AI-Based Personalized Learning Resource Recommendation Systems,” International Journal of Engineering Trends and Technology, 2025.
+
+H. A. Yazdi et al., “Dynamic Educational Recommender Systems Using Neural Networks,” Scientific Reports, 2024.
+
+J. Shin and O. Bulut, “Adaptive Recommendation Frameworks in Educational Systems,” Behavior Research Methods, 2022.
+
+Ricci et al., Recommender Systems Handbook, Springer.
+
+IEEE Xplore – Educational Data Mining and Recommendation System
