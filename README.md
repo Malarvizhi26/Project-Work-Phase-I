@@ -118,23 +118,32 @@ After processing the user input, the system displays a list of recommended cours
 #### Recommendation Output Image
 #### output 1:
 <img width="488" height="229" alt="image" src="https://github.com/user-attachments/assets/0b922a49-f1ee-4ad8-b0cd-0820a670cb98" />
+
 #### output 2:
 <img width="488" height="638" alt="image" src="https://github.com/user-attachments/assets/564c12b4-d995-4531-a0dc-13ba0d8b6b68" />
 
 ### Results and Impact
 
 ✔ Improved learning efficiency through personalized recommendations
+
 ✔ Reduced effort in searching relevant courses
+
 ✔ High accuracy and recall in recommendation predictions
+
 ✔ Enhanced learner engagement with adaptive suggestions
+
 ✔ Suitable for integration into e-learning platforms and LMS systems
 
 ### Future Enhancements
 
 🔹 Integration of deep learning models for improved accuracy
+
 🔹 Real-time feedback-based model retraining
+
 🔹 Mobile application support
+
 🔹 User profile-based long-term learning analytics
+
 🔹 Integration with MOOC platforms such as Coursera and Udemy
 
 ### References
